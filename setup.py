@@ -35,7 +35,7 @@ setup(
     author_email='administration@chaos.jetzt',
     license='Apache',
 
-    install_requires=[],
+    install_requires=['requests-oauthlib'],
     packages=find_packages(exclude=['tests', 'tests.*']),
     include_package_data=True,
     cmdclass=cmdclass,
